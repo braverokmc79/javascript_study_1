@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이벤트 버블링 & 캡쳐링 | 이벤트 전파</title>
+    <style>
+        html{
+            background-color: #eee;  
+        }
+        html, body, main,div,p,span{                      
+            padding: 15px;
+            margin: 15px;
+            text-align: center;
+            font-weight: 700;
+
+        }
+        body{
+            background-color: #ddd;
+        }
+        main{
+            background-color: #ccc;
+        }
+        div{
+            background-color: #bbb;
+        }
+        p{
+            background-color: #aaa;
+        }
+         span{
+            display: block;
+            background-color: #888;
+        }
+    </style>
+</head>
+<body>
+    
+    body 영역
+    <main>
+        main 영역
+        <div>
+            div 영역
+            <p>
+                p 영역
+                <span>
+                    span 영역
+                </span>
+            </p>
+        </div>
+    </main>
+
+</body>
+</html>
