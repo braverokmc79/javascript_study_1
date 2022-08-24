@@ -2,6 +2,7 @@
 
 # dependencies
 /LEARN-NPM/node_modules
+/LEARN-WEBPACK/node_modules
 /node_modules
 /.pnp
 .pnp.js
